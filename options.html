@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Wikipedia Skin Redirector Options</title>
+    <link rel="stylesheet" type="text/css" href="options.css">
+  </head>
+  <body>
+    <h3>Wikipedia Skin Redirector Settings</h3>
+    <p>You can see the available skins at: <a href="https://en.wikipedia.org/w/index.php?title=Wikipedia:Skin">Wikipedia:Skin</a></p>
+    <form id="settingsForm">
+      <label>
+          <input type="checkbox" id="isEnabled"> Enable Add-on
+      </label>
+      <br>
+      <label>
+        <input type="checkbox" id="forceSkin"> Always Force Skin
+      </label>
+      <br>
+      <label for="skin">Select a skin:</label>
+      <select id="skin">
+        <option value="timeless">Timeless</option>
+        <option value="monobook">MonoBook</option>
+        <option value="vector">Vector</option>
+        <option value="vector-2022">Vector 2022</option>
+        <option value="minerva">Minerva Neue</option>
+      </select>
+      <br><br>
+      <button type="submit">Save</button>
+    </form>
+
+    <script src="options.js"></script>
+  </body>
+</html>
+
